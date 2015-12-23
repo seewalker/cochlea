@@ -5,7 +5,7 @@ if [ -e $libdir/libscsynth.dylib ]
 then
     echo "library in expected place, continuing"
 else
-    echo "may we place the 'libcsynth' library in /usr/local/lib? (y or n)"
+    echo "may we place the 'libscsynth' library in /usr/local/lib? (y or n)"
     read confirm
     if [ $confirm = "y" ]
         then

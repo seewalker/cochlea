@@ -29,7 +29,8 @@
                  :user db-user }
     "sqlite" {:classname "org.sqlite.JDBC"
               :subprotocol "sqlite"
-              :subname "resources/cochlea_sqlite.db" }))
+              :subname "resources/cochlea_sqlite.db" }
+    "" {}))
 (defn pg-list
   "Takes a "
   [vec is-string?]
