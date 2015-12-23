@@ -1,0 +1,18 @@
+#cochlea.past.LogItem{:correct? false, :practice_mode :scales, :level :select, :sound :phrygian, :timestamp #<DateTime 2015-01-19T04:05:03.095Z>}
+#cochlea.past.LogItem{:correct? false, :practice_mode :scales, :level :select, :sound :aeolian, :timestamp #<DateTime 2015-01-19T04:05:07.314Z>}
+#cochlea.past.LogItem{:correct? false, :practice_mode :scales, :level :select, :sound :locrian, :timestamp #<DateTime 2015-01-19T04:05:29.302Z>}
+#cochlea.past.LogItem{:correct? false, :practice_mode :intervals, :level :select, :sound 9, :timestamp #<DateTime 2015-01-19T04:05:35.851Z>}
+#cochlea.past.LogItem{:correct? false, :practice_mode :intervals, :level :select, :sound 11, :timestamp #<DateTime 2015-01-19T04:05:36.664Z>}
+#cochlea.past.LogItem{:correct? false, :practice_mode :intervals, :level :select, :sound 3, :timestamp #<DateTime 2015-01-19T04:05:37.331Z>}
+#cochlea.past.LogItem{:correct? false, :practice_mode :intervals, :level :select, :sound 7, :timestamp #<DateTime 2015-01-19T04:05:38.795Z>}
+#cochlea.past.LogItem{:correct? false, :practice_mode :intervals, :level :select, :sound 5, :timestamp #<DateTime 2015-01-19T04:05:39.353Z>}
+#cochlea.past.LogItem{:correct? false, :practice_mode :intervals, :level :select, :sound 2, :timestamp #<DateTime 2015-01-19T04:05:39.958Z>}
+#cochlea.past.LogItem{:correct? false, :practice_mode :intervals, :level :extended, :sound 3, :timestamp #<DateTime 2015-01-19T04:05:46.821Z>}
+#cochlea.past.LogItem{:correct? false, :practice_mode :intervals, :level :extended, :sound 8, :timestamp #<DateTime 2015-01-19T04:05:49.380Z>}
+#cochlea.past.LogItem{:correct? false, :practice_mode :intervals, :level :extended, :sound 2, :timestamp #<DateTime 2015-01-19T04:05:50.325Z>}
+#cochlea.past.LogItem{:correct? false, :practice_mode :intervals, :level :all, :sound 5, :timestamp #<DateTime 2015-01-19T04:06:41.569Z>}
+#cochlea.past.LogItem{:correct? false, :practice_mode :intervals, :level :all, :sound 11, :timestamp #<DateTime 2015-01-19T04:06:49.401Z>}
+#cochlea.past.LogItem{:correct? false, :practice_mode :scales, :level :extended, :timestamp #<DateTime 2015-07-13T04:12:04.463Z>}
+#cochlea.past.LogItem{:correct? true, :practice_mode :scales, :level :extended, :timestamp #<DateTime 2015-07-13T04:12:11.588Z>}
+#cochlea.past.LogItem{:correct? false, :practice_mode :scales, :level :extended, :timestamp #<DateTime 2015-07-13T04:12:15.010Z>}
+#cochlea.past.LogItem{:correct? false, :practice_mode :scales, :level :extended, :timestamp #<DateTime 2015-07-13T04:12:16.511Z>}
