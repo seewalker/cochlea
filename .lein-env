@@ -1,0 +1,17 @@
+{
+ :default-difficulty :select
+ :default-mode :scales
+ :autoplay true
+ :threshold 2
+ :username "alex"
+ :tempo 110
+ :pitch :c4
+ :simultaneous-intervals true
+ :allow-inversions true
+ :db-choice ""
+ :db-host "localhost"
+ :pg-data-dir "/usr/local/var/postgres"
+ :db-user "alexseewalddothtml"
+ :db-name "alexseewalddothtml"
+ :pg-user-password ""
+}
