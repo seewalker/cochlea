@@ -3,7 +3,7 @@ An ear training application. That is, a tool to play musical sounds for you and 
 
 ## Usage
 - OSX: Move the folder holding these files to /Applications and click on cochlea.app. For alternatives, see the cross-platform solution below.
-- Cross Platform: If you have ![leiningen](http://leiningen.org/) installed, simply execute `lein run` in your shell. If you do not wish to install leiningen, you can copy the libscsynth library to a suitable system directory, e.g. /usr/local/lib on linux or mac, and then execute `java -jar cochlea.jar`. Libscsynth is will come from target/base+system+user+dev/native/{windows,macosx,linux}/x86/libscsynth.{dll,dylib,lib} for windows, macosx, and linux respectively.
+- Cross Platform: If you have [leiningen](leiningen.org/) installed, simply execute `lein run` in your shell. If you do not wish to install leiningen, you can copy the libscsynth library to a suitable system directory, e.g. /usr/local/lib on linux or mac, and then execute `java -jar cochlea.jar`. Libscsynth is will come from target/base+system+user+dev/native/{windows,macosx,linux}/x86/libscsynth.{dll,dylib,lib} for windows, macosx, and linux respectively.
 Note - supercollider, the sound system, takes several seconds to boot, and you may experience a timeout upon startup. Try starting cochlea again if this happens.
 
 - If you wish to log your performance in postgres or sqlite, edit the `:db-choice` variable in `.lein-env` to have the value `"sqlite"` or `"postgres"`, respectively. Then, run `lein run init` or `java -jar cochlea.jar initialize` to initialize the database. Note, the visualizations only work with postgres.
@@ -36,7 +36,7 @@ A plot of proportion of correct answers over sessions.
 
 - You can practice recognizing scales, intervals, or chords.
 - Three distinct difficulty levels for each mode of play.
-- A variety of instruments that the sounds can be played with, some of which are provided by supercollider, some of which are textually defined in this project, and some of which are sampled instruments based on the London Philhmarmonic orchestra and made available to clojure through ![a clojure library I wrote](https://github.com/seewalker/philharmonia-samples).
+- A variety of instruments that the sounds can be played with, some of which are provided by supercollider, some of which are textually defined in this project, and some of which are sampled instruments based on the London Philhmarmonic orchestra and made available to clojure through [a clojure library I wrote](https://github.com/seewalker/philharmonia-samples).
 - Visual feedback for correct and incorrect answers.
 - If you have access to postgres, cochlea will store your performance and can display various visualizations of your performance over time. This sense of time is measured through timestamps and a session identifier which gets incremented whenever cochlea is started up.
 - An interface for writing arbitrary SQL queries on the performance log within the app, if you'd like.
